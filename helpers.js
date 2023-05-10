@@ -1,5 +1,5 @@
 const isImageType = (str) => {
-  const regex = /^image\/(jpe?g|png|gif|svg\+xml)$/;
+  const regex = /^image\/(jpe?g|png|gif|svg\+xml)/;
   return regex.test(str);
 };
 
